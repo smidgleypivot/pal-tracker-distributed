@@ -7,7 +7,7 @@ applications:
   instances: 1
   env:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
-    management_endpoint_health_show-details:'always'
+    MANAGEMENT_ENDPOINT_HEALTH_SHOW-DETAILS: 'always'
   services:
   - tracker-timesheets-database
   - tracker-service-registry
