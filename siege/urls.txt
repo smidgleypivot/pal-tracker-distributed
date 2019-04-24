@@ -1,6 +1,6 @@
-https://{REGISTRATIONS_APP_URL}/users/{USER_ID}
-https://{REGISTRATIONS_APP_URL}/accounts?ownerId={USER_ID}
-https://{REGISTRATIONS_APP_URL}/projects?accountId={ACCOUNT_ID}
-https://{ALLOCATIONS_APP_URL}/allocations?projectId={PROJECT_ID}
-https://{BACKLOG_APP_URL}/stories?projectId={PROJECT_ID}
-https://{TIMESHEET_APP_URL}/time-entries?userId={USER_ID}
+https://registration-pal-peppersmith.apps.evans.pal.pivotal.io/users/1
+https://registration-pal-peppersmith.apps.evans.pal.pivotal.io/accounts?ownerId=1
+https://registration-pal-peppersmith.apps.evans.pal.pivotal.io/projects?accountId=1
+https://allocations-pal-mangajo.apps.evans.pal.pivotal.io/allocations?projectId=1
+https://backlog-pal-firefly.apps.evans.pal.pivotal.io/stories?projectId=1
+https://timesheets-pal-sharpie.apps.evans.pal.pivotal.io/time-entries?userId=1
